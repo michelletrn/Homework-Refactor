@@ -6,6 +6,7 @@
 
 body {
     background-color: #d9dcd6;
+    font-size: 16px;
 }
 
 .header {
@@ -24,7 +25,8 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header .links {
+    /* gave a class name, "links", to the div that holds the links in the navagation bar and replaced div tags in line 27 and 36 with the new class */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,23 +34,26 @@ body {
     font-size: 20px;
 }
 
-
-
-.header div ul li {
+.header .links ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
-    /* changes the text color of the links in nav */
+.links .link {
+    /* gave list items a link class*/
     color: #ffffff;
     text-decoration: none;
 }
 
+/* a {
+    color: #ffffff;
+    text-decoration: none;
+} */
+
+/* moved font-size into the body element (line 7)
 p {
-    /* changes the text sizes of the paragrapgs */
     font-size: 16px;
-}
+} */
 
 .hero {
     height: 800px;
@@ -60,7 +65,7 @@ p {
 }
 
 .float-left {
-    /* took out the content imgs and put the mmax height within the img class code, original code line 138-147 */
+    /* took out the content imgs and put the max height within the img class code, original code line 138-147 */
     float: left;
     margin-right: 25px;
     max-height: 200px;
