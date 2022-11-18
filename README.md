@@ -1,4 +1,4 @@
-# Horiseon Module 1 Challenge# 
+# Horiseon Module 1 Challenge 
 
 ## Description
 
@@ -10,8 +10,8 @@ Given a mock website's HTML and CSS codes, I was tasked to optimize the coding t
 N/A
 
 ## Usage
-
-Deployed URL: 
+Github: https://github.com/michelletrn
+Deployed URL: https://michelletrn.github.io/Homework-Refactor/
 
 Due to the length of the application, I took 3 screenshots:
 ![screenshot1/3](./assets/images/horiseon1.JPG)
